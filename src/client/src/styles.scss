@@ -1,0 +1,10 @@
+@use "bootstrap" as *;
+@use "bootstrap-icons/font/bootstrap-icons";
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+// Override Bootstrap variables
+$font-family-base: 'Doto', sans-serif;
+$body-bg: #f1f1f1;
+
+

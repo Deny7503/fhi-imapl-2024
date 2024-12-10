@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Add a New Car</h1>
+  <form (ngSubmit)="addCar()">
+    <div class="mb-3">
+      <label for="brand" class="form-label">Brand</label>
+      <input id="brand" [(ngModel)]="newCar.brand" name="brand" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="model" class="form-label">Model</label>
+      <input id="model" [(ngModel)]="newCar.model" name="model" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="color" class="form-label">Color</label>
+      <input id="color" [(ngModel)]="newCar.color" name="color" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price</label>
+      <input id="price" [(ngModel)]="newCar.price" name="price" type="number" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Car</button>
+  </form>
+</div>
